@@ -6,4 +6,4 @@ SELECT employees.id AS
 	last_name,
 	title
 FROM employees
-	LEFT JOIN titles ON employees.title_id = titles.id
+	LEFT JOIN titles ON employees.title_id = titles.id;
