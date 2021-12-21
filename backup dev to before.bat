@@ -6,3 +6,5 @@ set backupFile=dev.before.backup.sql
 echo Backup %database% to %backupFile%
 
 mysqldump -u dev %database% > %backupFile%
+
+pause
